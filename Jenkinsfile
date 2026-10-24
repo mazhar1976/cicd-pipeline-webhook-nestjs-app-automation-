@@ -40,10 +40,10 @@ pipeline
             steps {
                 emailtext (
                     subject: "NestJS App Deloyed"
-                    Succesfully on EC2!"
+                    Successfully on EC2!"
                     body: "Your NestJS APP is Deployed...!"
                     http://"IP:PORT//" ,
-                    to: "{EMAIL}"
+                    to: "mmenterprises02@gmail.com"
                 )
             }
         }
